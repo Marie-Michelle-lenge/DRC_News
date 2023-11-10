@@ -1,5 +1,5 @@
 <?php include("app/includes/headers.php");?>
-<?php include("app/controllers/users.php");?>
+<?php include("C:/xampp/htdocs/RDCNews/app/controllers/users.php");?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +49,7 @@
                     </ul>
                 </nav>
             </div>
-        </div>
+        </div>  
         <div class="row align-items-center bg-white py-3 px-lg-5">
             <div class="col-lg-4">
                 <a href="index.html" class="navbar-brand p-0 d-none d-lg-block">
@@ -60,14 +60,22 @@
         </div>
     </div>
     <!-- Topbar End -->
-
+    
     <!-- Navbar Start -->
     <br><br><br>   <br><br>
+    
 <div class="container-fluid cadre-principal"> 
         <div class="container"> 
             <div class="row justify-content-md-center">
                 <div style="display: flex; justify-content: center; align-items: center; height: 50vh;" >
                     <div class="card">
+                     <!-- ERROR VALIDATION
+                    <?php //if(count($errors) > 0): ?>
+                            <div class="msg error">
+                            <?php //foreach($errors as $error): ?>
+                                <li><?php// echo $erro;?> </li>
+                            <?php  //endforeach; ?>
+                         <?php  //endif; ?> -->
                         <div class="card-block">
                         <div class="mb-3">
                         <div class="section-title mb-0">
@@ -98,7 +106,7 @@
                         <div class="form-group">
                             <input style="width: 80vh; text-align: center;" type="password" name="passwordConfirme" id="motdepasse" value=""
                                 class="form-control"
-                                placeholder="passwordConfirme">
+                                placeholder="confirmer le mot de passe">
                         </div><br>
                         
                         <button type="submit" name="register-btn" class="btn btn-primary btn-block mt-3" id="loginbtn">Connexion</button>

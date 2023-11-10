@@ -19,8 +19,11 @@
                         <li class="nav-item border-right border-secondary">
                             <a class="nav-link text-body small" href="#">Contact</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item border-right border-secondary">
                             <a class="nav-link text-body small" href="login.php">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-body small" href="register.php">sign up</a>
                         </li>
                     </ul>
                 </nav>
